@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, .05);
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: brown;
+    padding: 2rem 9%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+header .logo{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+header .navbar a{
+    padding: 0 2rem;
+}
+header #toggler{
+    display: none;
+}
+header .fa-bars{
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    border:.1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+.content{
+    font-size: 2rem;
+    margin-top: 380px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*product*/
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    gap: 10px;
+}
+.box{
+    border: 2px solid brown;
+    border-radius: 8px;
+    font-size: 2rem;
+    transition: 0.5s;
+    text-align: center;
+    color: #333;
+    height: 238px;
+    width: 300px;
+    background: linear-gradient(rgba(0,0,0,0.508),rgba(0,0,0,0.508)),url(images/b.jpg) center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.box:hover{
+    height: 300px;
+}
+.box2{
+    border: 2px solid brown;
+    border-radius: 8px;
+    font-size: 2rem;
+    transition: 0.5s;
+    text-align: center;
+    color: #333;
+    height: 238px;
+    width: 300px;
+    background: linear-gradient(rgba(0,0,0,0.508),rgba(0,0,0,0.508)),url(images/Honda.png) center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.box2:hover{
+    height: 300px;
+}
+.box3{
+    border: 2px solid brown;
+    border-radius: 8px;
+    font-size: 2rem;
+    transition: 0.5s;
+    text-align: center;
+    color: #333;
+    height: 238px;
+    width: 300px;
+    background: linear-gradient(rgba(0,0,0,0.508),rgba(0,0,0,0.508)),url(images/pulsar.jpg) center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.box3:hover{
+    height: 300px;
+}
+.box4{
+    border: 2px solid brown;
+    border-radius: 8px;
+    font-size: 2rem;
+    transition: 0.5s;
+    text-align: center;
+    color: #333;
+    height: 238px;
+    width: 300px;
+    background: linear-gradient(rgba(0,0,0,0.508),rgba(0,0,0,0.508)),url(images/suzuki.png) center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.box4:hover{
+    height: 300px;
+}
+.box5{
+    border: 2px solid brown;
+    border-radius: 8px;
+    font-size: 2rem;
+    transition: 0.5s;
+    text-align: center;
+    color: #333;
+    height: 238px;
+    width: 300px;
+    background: linear-gradient(rgba(0,0,0,0.508),rgba(0,0,0,0.508)),url(images/yamaha.png) center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.box5:hover{
+    height: 300px;
+}
+.box6{
+    border: 2px solid brown;
+    border-radius: 8px;
+    font-size: 2rem;
+    transition: 0.5s;
+    text-align: center;
+    color: #333;
+    height: 238px;
+    width: 300px;
+    background: linear-gradient(rgba(0,0,0,0.508),rgba(0,0,0,0.508)),url(images/suzuki.png) center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.box6:hover{
+    height: 300px;
+}
+.image{
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+}
+.link{
+    display: block;
+    background: brown;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+    font-size: rem;
+}
+
+
+
+
+
+
+
+
+
+/* table */
+
+.search{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    height: 5rem;
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 2rem;
+}
+
+.tab{
+    border: 1px solid #ddd;
+    font-size: 2rem;
+    height: 100vh;
+    width: 100%;
+    border-collapse: collapse;
+}
+.tab tr{
+    border-bottom: 1px solid #333;
+}
+.tab-header{
+    text-align: left;
+    border-top: 1px solid #333;
+}
+
+
+.box-contain{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background-color: rgb(201, 68, 68);
+}
+.quick-links{
+    font-size: 2rem;
+}
+.quick-links a{
+    font-weight: bold;
+    color: #eee;
+    font-size: 1.5rem;
+    display: block;
+    padding: .5rem 0;
+}
+.box-contain .quick-links{
+    flex: 1 1 25rem;
+}
+.quick-links a:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*about*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 2rems;
+    }
+    section{
+        padding: 2rems;
+    }
+    .home{
+        background-position: left;
+    }
+}
+
+@media (max-width:768px){
+    header .fa-bars{
+        display: block;
+    }
+    header .navbar{
+        position:absolute;
+        top: 100%; left: 0; right: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0,0 0);
+    }
+    header #toggler:checked ~ .navbar{
+        clip-path: polygon(0 0, 100% 0, 100% 100%,0 100%);
+    }
+
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: .1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+}
+
+
+@media (max-width:450px) {
+    html{
+        font-size: 50%;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+}
